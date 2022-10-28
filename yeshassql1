@@ -5,8 +5,11 @@ create database dbo;
 		lastname varhar (50)
 		firstname varchar (50)
 		dob        date)
-insert into teachers
-	values (1,'kebede' 'lema' '1983/05/20')
+insert into teachers;
+	values (1,'kebede', 'lema','1983/05/20')
+
+	insert into teachers 
+	(id,lastname,firstname)values (2,'kuku','yes');
 	
 
 
